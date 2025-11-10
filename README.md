@@ -24,3 +24,15 @@ full-stack web development, utilizing the Visual Studio IDE, Git, and Razor Page
   - The local Git repository was initialized as **`VISUAL-STUDIO-PROJECTS`** and
     successfully published to GitHub, establishing the workflow for all subsequent
     assignments.
+
+#### **Step 60: CREATING A WEB APPLICATION TUTORIAL** ⚙️
+
+- **Date**: November 10, 2025
+- **Objective**: Complete the Microsoft Learn tutorial to run, debug, and make
+  basic C# and HTML changes to the scaffolded ASP.NET Core web application, focusing
+  on Razor Pages structure.
+- **Outcome**: Successfully implemented **Razor syntax** (`@ViewData`) to display
+  a dynamic date on the Privacy page, generated in the C# code-behind file using
+  `DateTime.Now.ToString()` with `System.Globalization`. Utilized **Visual Studio Quick Actions** to clean
+  up C# code. **Note:** Due to an environment-specific port/firewall block, application launch
+  was verified via command line, and code changes were implemented successfully but not visually confirmed in the browser.

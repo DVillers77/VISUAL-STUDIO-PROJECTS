@@ -1,4 +1,8 @@
+using System.IO;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Environment.ContentRootPath = Directory.GetCurrentDirectory();
 
 // Add services to the container.
 builder.Services.AddRazorPages();

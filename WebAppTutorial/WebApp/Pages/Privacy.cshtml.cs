@@ -14,6 +14,9 @@ namespace WebApp.Pages
 
         public void OnGet()
         {
+            // TUTORIAL'S LOGIC:
+            string dateTime = DateTime.Now.ToString("d", new CultureInfo("en-US"));
+            ViewData["TimeStamp"] = dateTime;
         }
     }
 
