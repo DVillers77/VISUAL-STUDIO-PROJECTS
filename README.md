@@ -1,4 +1,4 @@
-# VISUAL-STUDIO-PROJECTS
+﻿# VISUAL-STUDIO-PROJECTS
 
 This repository serves as a portfolio for all coding projects and assignments
 completed during The Tech Academy's **Visual Studio Course** within the UI/UX Design
@@ -11,7 +11,7 @@ full-stack web development, utilizing the Visual Studio IDE, Git, and Razor Page
 
 ### Project Log
 
-#### **Step 59: ASP.NET CORE WEB APP SCAFFOLD** ???
+#### **Step 59: ASP.NET CORE WEB APP SCAFFOLD** 🏗️
 
 - **Date**: November 9, 2025
 - **Objective**: Create the initial environment for the Visual Studio course by
