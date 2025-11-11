@@ -80,3 +80,14 @@ Pages.
     **Project Settings** > **Service connections** > **New service
     connection** > **GitHub**, which successfully connected the
     `VISUAL-STUDIO-PROJECTS` repository via OAuth.
+
+#### **Step 94: AZURE ASSIGNMENT** ☁️
+
+- **Date**: November 11, 2025
+- **Objective**: Create a free Microsoft Azure account and familiarize the
+  project environment with the Azure Portal, preparing to host cloud resources.
+- **Outcome**: Successfully created a free Azure account using an existing
+  Microsoft identity, completing the required credit card verification (no
+  charge). The account was set up for **"personal use,"** and a tour of the main
+  **Azure Portal** was conducted to prepare for future deployment and resource
+  management tasks.
