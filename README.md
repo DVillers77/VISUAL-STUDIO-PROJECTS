@@ -91,3 +91,19 @@ Pages.
   charge). The account was set up for **"personal use,"** and a tour of the main
   **Azure Portal** was conducted to prepare for future deployment and resource
   management tasks.
+
+#### **Step 104: VISUAL STUDIO HTML SUBMISSION ASSIGNMENT** 🎨
+
+- **Date**: November 11, 2025
+- **Objective**: Create a new ASP.NET Core Web App (Razor Pages) project and
+  implement core front-end changes, demonstrating use of HTML, CSS, and
+  JavaScript within the Visual Studio environment.
+- **Outcome**:
+  - The project **`WebAppTutorial`** was initialized using **.NET 8 (LTS)**.
+  - Modified **`Index.cshtml`** to display **"Hello, World"**.
+  - Added a CSS rule (`.green-text`) to **`site.css`** to set the default
+    color to `darkolivegreen`.
+  - Implemented JavaScript functions (`newColor()` and `oldColor()`) in
+    **`site.js`** and bound them to the `onmouseover` and `onmouseout` events
+    on the `<h1>` tag in **`Index.cshtml`**, creating a simple interactive
+    color animation.

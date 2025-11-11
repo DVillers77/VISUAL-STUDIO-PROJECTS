@@ -1,4 +1,8 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿// Function to change the color of the "Hello, World" text on mouseover and mouseout events.
+function newColor() {
+    document.getElementById("hello_world").style.color = "blue";
+}
 
-// Write your JavaScript code.
+function oldColor() {
+    document.getElementById("hello_world").style.color = "darkolivegreen";
+}
