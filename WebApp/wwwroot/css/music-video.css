@@ -1,0 +1,39 @@
+﻿/* Custom CSS for Music Video Page */
+
+body {
+    /* Sets the background color for the entire page */
+    background-color: black;
+    /* Hide scrollbars just in case */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#video-container {
+    /* Centers the video */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    position: relative;
+    /* Ensure the container is behind the ripple */
+    z-index: 1;
+}
+
+/* CSS for the ripple element */
+.ripple {
+    position: absolute;
+    border: 2px solid rgba(255, 0, 0, 0.7); /* Red border, slightly transparent */
+    border-radius: 50%;
+    transform: scale(0);
+    pointer-events: none; /* Allows mouse events to pass through */
+    opacity: 0;
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+    /* Ensures the ripple is on top of the video */
+    z-index: 1000;
+}
+
+    .ripple.active {
+        opacity: 1;
+        transform: scale(2); /* Scale up for the ripple effect */
+    }

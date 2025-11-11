@@ -107,3 +107,17 @@ Pages.
     **`site.js`** and bound them to the `onmouseover` and `onmouseout` events
     on the `<h1>` tag in **`Index.cshtml`**, creating a simple interactive
     color animation.
+
+#### **Step 105: VISUAL STUDIO HTML SUBMISSION ASSIGNMENT (Music Video)** 🎸
+
+- **Date**: November 11, 2025
+- **Objective**: Create a new Razor Page and implement all three core front-end
+  technologies (HTML, CSS, JS) to embed a YouTube music video and create a custom
+  animated effect.
+- **Outcome**:
+  - Created a new Razor Page (`MusicVideo.cshtml`) embedding the "Sweet Dreams"
+    music video (ID: `QUvVdTlA23w`).
+  - Custom **CSS** (`music-video.css`) was applied to set the page background to
+    **black**.
+  - **JavaScript** (`music-video.js`) was implemented to create a **red ripple
+    effect** that follows the mouse cursor, fulfilling the animation requirement.

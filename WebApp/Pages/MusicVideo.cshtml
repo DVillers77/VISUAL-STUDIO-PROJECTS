@@ -1,0 +1,20 @@
+﻿@page
+@model MusicVideoModel
+@{
+    ViewData["Title"] = "Sweet Dreams - Music Video";
+    Layout = null; /* Using null layout for full control over the black background */
+}
+
+<link rel="stylesheet" href="~/css/music-video.css" />
+
+<div id="video-container">
+    <iframe width="853" height="480"
+            src="https://www.youtube.com/embed/QUvVdTlA23w?autoplay=1&mute=0&rel=0"
+            title="Marilyn Manson - Sweet Dreams (Are Made Of This)"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+</div>
+
+<script src="~/js/music-video.js"></script>
